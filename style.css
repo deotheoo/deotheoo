@@ -1,0 +1,46 @@
+body{
+    padding: 1em;
+    margin: auto;
+    color: var(--fg);
+    font-family: 'PT Serif', 'Garamond', 'Georgia', serif;
+    line-height: 1.5em;
+    max-width: 52em;
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    column-gap: 40px;
+    list-style: none;
+    padding-left: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.logo {
+    max-height: 40px;
+    border-radius: 50%;
+    margin-right: .5em;
+    vertical-align: middle;
+}
+
+.nav-left{
+    float: left;
+    line-height: 2em;
+}
+
+.nav-right{
+    position: absolute;
+    right: 200px;
+    
+}
+
+.articles {
+    overflow: auto;
+    white-space: nowrap;
+}
