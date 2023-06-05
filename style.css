@@ -36,11 +36,10 @@ header{
 
 .nav-right{
     position: absolute;
-    right: 200px;
-    
+    right: 200px;    
 }
 
-.articles {
+ul.articles {
     overflow: auto;
     white-space: nowrap;
 }
